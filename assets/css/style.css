@@ -422,7 +422,8 @@ table {
   transform: translateY(-6.5px) rotate(-45deg);
 }
 
-@media (max-width: 1199.98px) {
+/* 1280px を下回るとナビと電話番号が入りきらず、番号が2行に折り返す */
+@media (max-width: 1279.98px) {
   .header__list {
     gap: 16px;
   }
