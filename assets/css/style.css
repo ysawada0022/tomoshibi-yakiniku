@@ -582,7 +582,8 @@ table {
 }
 
 .fv__lead {
-  max-width: 620px;
+  /* 産地と等級を並べる行が折り返さない幅にしてある */
+  max-width: 680px;
   margin: 0 0 22px;
   font-size: 15.5px;
   line-height: 2.1;
